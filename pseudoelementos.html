@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:visited {
+        color: darkred
+    }
+
+    a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: blueviolet;
+        background-color: blue;
+    }
+
+    .especial{
+        background-color: rgba(193, 117, 23, 0.744);
+    }
+    
+    .especial::after {
+        content: '🠔';
+    }
+    .especial::before{    
+    content: '⟾';
+    }
+</style>
+<body>
+    <h1>Peronalizando links</h1>
+    <ul>
+    <li><a href="https://www.youtube.com/watch?v=LOo5NLDB6M0&ab_channel=EmersonJuliani-M%C3%BAsicasAntigas">canal zeca ramalho
+    </a></li>
+    <li><a href="https://www.youtube.com/watch?v=LOo5NLDB6M0&ab_channel=EmersonJuliani-M%C3%BAsicasAntigas" class="especial" >zeca ramalho</a></li>
+    <li> <a href="https://www.twitch.tv.com">twitch font rab</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de uso da tag aside</title>
+</head>
+<style>
+    .destaque {
+        color: aquamarine;
+    }
+
+    #destaque2 {
+        color: red;
+    }
+
+    div > p {
+        color: blue;
+    }
+</style>
+<body>
+  <main>
+    <h1>Título principal</h1>
+    <p>Conteúdo principal do documento...</p>
+  </main>
+
+  <aside>
+    <h2>Informações adicionais</h2>
+    <p>Este é o conteúdo relacionado ou tangencial ao conteúdo principal.</p>
+  </aside>
+
+  <p>Este é um <span class="destaque">texto em destaque</span> dentro de um parágrafo.</p>
+
+  <p>Este é um <span id="destaque2">texto em destaque</span> dentro de um parágrafo.</p>
+
+  <p>Lorem ipsum dolor sit amet</p>
+
+  <!-- 
+<style>
+  p::before {
+    content: " Início  ";
+    font-weight: bold;
+  }
+</style> -->
+
+<div>
+    <p>Primeiro parágrafo</p>
+    <p>Segundo parágrafo</p>
+  </div>
+
+  <a href="#" class="botao">Clique aqui</a>
+
+<style>
+  a:hover {
+    color: red;
+  }
+</style>
+<a href="#" class="botao">Clique aqui</a>
+
+<style>
+  a:first-child {
+    color: red;
+  }
+</style>
+</body>
+</html>
